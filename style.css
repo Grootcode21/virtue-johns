@@ -131,9 +131,7 @@ li {
   flex-wrap: wrap;
 }
 
-#my--site {
-  color: var(--mainTextColor);
-}
+
 
 #socials--list a{
   font-size: 0.9em;
