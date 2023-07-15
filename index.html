@@ -11,20 +11,123 @@
 </head>
 <body>
     <div id="container--main">
-               <!-- Footer -->
-        <footer class="p-5 bg-dark text-white text-center position-relative">
+        <section class="section--page" id="wrapper--hero">
+            <img id="profile-pic" src="my_profile.jpg" height="250" alt="My profile picture">
+            <div>
+                <h2 id="user-name">Virtue Njeri</h2>
+                <p id="bio">BioStatistician, Data analyst</p>
+            </div>
+        </section> 
+        <section id="section--page">
+            <div id="socials--list">
+                <a href="http://www.facebook.com" target="_blank" >Facebook</a>
+                <a href="http://www.twitter.com" target="_blank">Twitter</a>
+                <a href="http://www.instagram.com" target="_blank">Instagram</a>
+                <a href="http://www.linkedin.com" target="_blank">Linkedin</a>
+                <a href="#" target="_blank">Download CV</a>
+            </div>
+        </section>
+        <section class="section--page"> 
+            <h2>Skills and Qualifications</h2>
+            <ul class="qualifications--list">
+                <li><i class="bi bi-check-lg"></i> Microsoft Office Suite</li>
+                <li><i class="bi bi-check-lg"></i> Data Analyst - Excel, SPSS</li>
+                <li><i class="bi bi-check-lg"></i> Digital Marketer</li>
+            </ul>
+        </section>
+        <section class="section--page">
+            <h2>Tech Stack</h2>
+            <div id="wrapper--techstack__items">
+                <div class="card--techstack"><span>HTML, CSS, JavaScript</span></div>
+                <div class="card--techstack"><span>Python, VBA</span></div>
+                <div class="card--techstack"><span>Bootstrap, Tailwind</span></div>
+                <div class="card--techstack"><span>ReactJS</span></div>
+                <div class="card--techstack"><span>Access, Postgresql, mongoDB</span></div>
+
+            </div>
+        </section>
+        <section id="work-history-wrapper" class="section--page">
+            <h2>Work history</h2>
+            <div class="linebreak"></div>
+            <div class="card--work-history">
+                <strong>Cashier | Golden Price Limited</strong>
+                <p>July 2021 - Present</p>
+                <p>Duties & Responsibilities:</p>
+                <ul> 
+                <li>Data Analysis - Excel,SPSS </li>
+                <li>Machine Learning and AI</li>
+                <li>Programming - Python</li>
+            </ul>
+            </div>
+        </section>
+        <section class="section--page">
+            <h2>Contact Info</h2>
+            <section  id="questions">
+                <div class="container">
+                    <div class="accordion accordion-flush" id="questions">
+                        <!-- Item 1-->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed"
+                                type="button" data-bs-toggle="collapse"
+                                data-bs-target="#question-one"
+                                aria-expanded="false" aria-controls="flush-collapseOne">
+                                    Find Me Here
+                                </button>
+                            </h2>
+                    <div class="accordion-collapse collapse" id="question-one"
+                    aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                <!-- Contact and Map-->
+            <section class="p-2">
+            <div class="row g-4">
+                <div >
+                    <ul class="list-group list-group-flush lead">
+                        <li class="list-group-item">
+                            <span class="fw-bold">Location:</span> Nairobi, Kenya
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Phone:</span> +254 717 154 208
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <span class="fw-bold">Email:</span> virtuejohns@gmail.com
+                        </li>
+                    </ul>
+                </div>
+           
+            </div>
+    
+        </section>
+  
+                    </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </section>
+         
+
+           
+        </section>
+
+         </div>
+    
+        <!-- Footer -->
+        <footer class="p-3 bg-dark text-white text-center position-relative">
             <div class="container">
                 <p class="lead">Copyright &copy; 2023 Grootcode21</p>
-                <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                <a href="#" class="position-absolute bottom-0 end-0 p-4">
                     <i class="bi bi-arrow-up-circle h1"></i>
                 </a>
             </div>
         </footer> 
        <div class="notification">
-        <p>Virtue Njer</p>
+        <p>My Resume</p>
         <span class="notification-progress"></span>
     </div>   
-    </div>
+    
 
   <!--Javascript bundle-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
