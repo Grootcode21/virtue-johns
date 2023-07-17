@@ -8,7 +8,7 @@
 .notification {
     position: absolute;
     bottom: 50px;
-    left: 50px;
+    right: 50px;
     width: max-content;
     padding: 20px 15px;
     border-radius: 4px;
