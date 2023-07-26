@@ -16,7 +16,7 @@
             <img id="profile-pic" src="my_profile.jpg" height="250" alt="My profile picture">
             <div>
                 <h2 id="user-name">Virtue Njeri</h2>
-                <p id="bio">BioStatistician, Data analyst</p>
+                <p><span class="bio"></span></p>
                 
 
                 <a class="btn btn-success" href="CV/CURRICULUM VITAE.pdf">Download CV <i class="bi bi-download"></i></a>
@@ -131,7 +131,15 @@
     </div>     
 
   <!--Javascript bundle-->
-  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".bio", {
+            strings: ["BioStatistician", "Data analyst"],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true
+        })
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
